@@ -17,7 +17,7 @@ inner join lfa1 as lf on ek.lifnr = lf.lifnr
     ep.lgort,
     ep.meins,
     lf.lifnr,
-    lf.adrnr,
+    lf.name1,
     concat( lf.stras, lf.mcod3 ) as vendor_addr
     
 }
